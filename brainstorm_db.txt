@@ -1,0 +1,36 @@
+tabels: 3  savedNumber - Statement ( True = Richtig ; False = Falsch)
+
+savedNumber: aktuelle Nummer wird in der Tabelle gespeichert
+savedTries: Versuche die man benötigt hat werden gespeichert
+Statement: boolean -> true = Richtig eraten ; false = falsch eraten
+
+id's erstellen
+fortnlaufend unique (nur eine Zahl)
+
+
+
+
+
+
+
+IDEE
+
+User -> endscreen-phtml -> DB -> savedNumber und savedTries
+savedNumber -> setRandomNumber() speicher -> DB schicken 
+savedTries  -> tryToWin() speicher -> DB senden 
+timeStamp -> IMMER now() schreiben -> d.h. immer beim schicken now() schicken in die DB
+
+
+eigene Daten schicken lassen aus der DB
+savedNumber -> result.phtml
+savedTries  -> result.phtml
+timeStamp   -> result.phtml
+
+
+
+
+
+
+
+
+

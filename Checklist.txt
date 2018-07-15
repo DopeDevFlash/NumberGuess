@@ -1,0 +1,40 @@
+1. Verbdinung von php und DB ist hergestellt und Daten können abgefragt werden
+2. Zeitstempel funktioniert
+3. Login System funktioniert via daten datei
+4. unique ID's
+4. weiteleitung von restart - endscreen - result - highscore 
+5. Grundgerüst der Seiten endscreen - result - higshcore
+6. ID fix
+7. User wird in DB geschickt
+8. Zeitstempel funzen
+9. ranking column in savedtries
+10. neue kleinere DB erstellt
+11. genug backups gespeichert
+12. DB Einträge vom User funzen (issues siehe todo)
+
+
+
+
+ToDO:
+JEDER Refresh, wird das davoherige eingetragene in die db eingetragen
+
+endscreen -> DB probleme -> if statement, ob er überhaupt die User Daten haben ggf. mit isset()
+User -> endscreen-phtml -> DB -> savedNumber und savedTries
+savedTries  -> tryToWin() speicher -> DB senden
+
+
+ranking berechnen d.h. der mit den wenigsten versuchen INSGESAMMT ist Rank 1 und der rest stuft sich immer weiter ab
+
+
+
+Donnerstag:
+überprüfen, ob User überhaupt an DB gesendet wird ODER ob DB den Value nicht aufnehmen möchte
+
+User -> endscreen-phtml -> DB -> savedNumber und savedTries
+savedTries  -> tryToWin() speicher -> DB senden
+ranking berechnen
+
+
+evtl. result und highscore auf eine Seite 
+
+
